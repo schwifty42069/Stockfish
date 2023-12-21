@@ -1,0 +1,342 @@
+useradd: user 'fishtest' already exists
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+mkdir: cannot create directory ‘.ssh’: File exists
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Ign:1 http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 InRelease
+Ign:2 https://storage.googleapis.com/cros-packages/119 bullseye InRelease
+Ign:3 http://repo.mongodb.org/apt/debian bullseye/mongodb-org/7.0 InRelease
+Hit:4 https://storage.googleapis.com/cros-packages/119 bullseye Release
+Hit:5 https://deb.debian.org/debian bullseye InRelease
+Hit:6 http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 Release
+Hit:7 https://deb.debian.org/debian bullseye-updates InRelease
+Hit:8 https://deb.debian.org/debian-security bullseye-security InRelease
+Hit:10 http://repo.mongodb.org/apt/debian bullseye/mongodb-org/7.0 Release
+Hit:11 https://deb.debian.org/debian bullseye-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+2 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  cros-guest-tools tzdata
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 298 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 https://deb.debian.org/debian bullseye-updates/main amd64 tzdata all 2021a-1+deb11u11 [287 kB]
+Get:2 https://storage.googleapis.com/cros-packages/119 bullseye/main amd64 cros-guest-tools all 0.39~cros11 [11.0 kB]
+Preconfiguring packages ...
+Fetched 298 kB in 0s (936 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121187 files and directories currently installed.)
+Preparing to unpack .../tzdata_2021a-1+deb11u11_all.deb ...
+Unpacking tzdata (2021a-1+deb11u11) over (2021a-1+deb11u10) ...
+Preparing to unpack .../cros-guest-tools_0.39~cros11_all.deb ...
+Unpacking cros-guest-tools (0.39~cros11) over (0.39~cros11) ...
+Setting up tzdata (2021a-1+deb11u11) ...
+
+Current default time zone: 'America/New_York'
+Local time is now:      Thu Dec 21 05:25:01 EST 2023.
+Universal Time is now:  Thu Dec 21 10:25:01 UTC 2023.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up cros-guest-tools (0.39~cros11) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'apache2' is not installed, so not removed
+Package 'apache2-bin' is not installed, so not removed
+Package 'apache2-data' is not installed, so not removed
+Package 'apache2-doc' is not installed, so not removed
+Package 'apache2-utils' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+bash-completion is already the newest version (1:2.11-2).
+cpulimit is already the newest version (2.6-3).
+git is already the newest version (1:2.30.2-1+deb11u2).
+mutt is already the newest version (2.0.5-4.1+deb11u3).
+nginx is already the newest version (1.18.0-6.1+deb11u3).
+pigz is already the newest version (2.6-1).
+procps is already the newest version (2:3.3.17-5).
+ufw is already the newest version (0.36-7.1).
+curl is already the newest version (7.74.0-1.3+deb11u10).
+exim4 is already the newest version (4.94.2-7+deb11u1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+Firewall is active and enabled on system startup
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+80/tcp                     ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+6542                       ALLOW IN    Anywhere                  
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+6542 (v6)                  ALLOW IN    Anywhere (v6)             
+
+unlink: cannot unlink '/etc/nginx/sites-enabled/default': No such file or directory
+Synchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable nginx
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Ign:1 http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 InRelease
+Ign:2 http://repo.mongodb.org/apt/debian bullseye/mongodb-org/7.0 InRelease
+Hit:3 http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 Release
+Hit:4 http://repo.mongodb.org/apt/debian bullseye/mongodb-org/7.0 Release
+Ign:5 https://storage.googleapis.com/cros-packages/119 bullseye InRelease
+Hit:7 https://deb.debian.org/debian bullseye InRelease
+Hit:8 https://deb.debian.org/debian bullseye-updates InRelease
+Hit:10 https://storage.googleapis.com/cros-packages/119 bullseye Release
+Hit:11 https://deb.debian.org/debian-security bullseye-security InRelease
+Hit:12 https://deb.debian.org/debian bullseye-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.9).
+libbz2-dev is already the newest version (1.0.8-4).
+libffi-dev is already the newest version (3.3-6).
+libxml2-dev is already the newest version (2.9.10+dfsg-6.7+deb11u4).
+libncursesw5-dev is already the newest version (6.2+20201114-2+deb11u2).
+libssl-dev is already the newest version (1.1.1w-0+deb11u1).
+libreadline-dev is already the newest version (8.1-1).
+libsqlite3-dev is already the newest version (3.34.1-3).
+tk-dev is already the newest version (8.6.11+1).
+libxmlsec1-dev is already the newest version (1.2.31-1).
+liblzma-dev is already the newest version (5.2.5-2.1~deb11u1).
+xz-utils is already the newest version (5.2.5-2.1~deb11u1).
+zlib1g-dev is already the newest version (1:1.2.11.dfsg-2+deb11u2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+fatal: destination path '/home/fishtest/.pyenv' already exists and is not an empty directory.
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+pyenv: /home/fishtest/.pyenv/versions/3.11.7 already exists
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+OK
+deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bullseye/mongodb-org/6.0 multiverse
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Ign:1 http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 InRelease
+Ign:2 http://repo.mongodb.org/apt/debian bullseye/mongodb-org/7.0 InRelease
+Ign:3 https://repo.mongodb.org/apt/ubuntu bullseye/mongodb-org/6.0 InRelease
+Hit:4 http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 Release
+Hit:5 https://deb.debian.org/debian bullseye InRelease
+Ign:6 https://storage.googleapis.com/cros-packages/119 bullseye InRelease
+Err:7 https://repo.mongodb.org/apt/ubuntu bullseye/mongodb-org/6.0 Release
+  404  Not Found [IP: 2600:9000:2209:a000:0:bd83:86c0:93a1 443]
+Hit:9 https://storage.googleapis.com/cros-packages/119 bullseye Release
+Hit:10 https://deb.debian.org/debian bullseye-updates InRelease
+Hit:11 http://repo.mongodb.org/apt/debian bullseye/mongodb-org/7.0 Release
+Hit:12 https://deb.debian.org/debian-security bullseye-security InRelease
+Hit:13 https://deb.debian.org/debian bullseye-backports InRelease
+Reading package lists...
+E: The repository 'https://repo.mongodb.org/apt/ubuntu bullseye/mongodb-org/6.0 Release' does not have a Release file.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+mongodb-org is already the newest version (7.0.4).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+fatal: destination path 'fishtest' already exists and is not an empty directory.
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+Requirement already satisfied: pip in ./fishtest/server/env/lib/python3.11/site-packages (23.3.2)
+Requirement already satisfied: setuptools in ./fishtest/server/env/lib/python3.11/site-packages (69.0.2)
+Requirement already satisfied: wheel in ./fishtest/server/env/lib/python3.11/site-packages (0.42.0)
+Obtaining file:///home/fishtest/fishtest/server
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: pyramid in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (2.0.2)
+Requirement already satisfied: pyramid_debugtoolbar in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (4.10)
+Requirement already satisfied: pyramid_mako in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (1.1.0)
+Requirement already satisfied: waitress in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (2.1.2)
+Requirement already satisfied: pymongo>4 in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (4.6.1)
+Requirement already satisfied: numpy in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (1.26.2)
+Requirement already satisfied: scipy in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (1.11.4)
+Requirement already satisfied: requests in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (2.31.0)
+Requirement already satisfied: awscli in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (1.32.5)
+Requirement already satisfied: zxcvbn in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (4.4.28)
+Requirement already satisfied: email_validator in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (2.1.0.post1)
+Requirement already satisfied: vtjson in ./env/lib/python3.11/site-packages (from fishtest-server==0.1) (1.4.0)
+Requirement already satisfied: dnspython<3.0.0,>=1.16.0 in ./env/lib/python3.11/site-packages (from pymongo>4->fishtest-server==0.1) (2.4.2)
+Requirement already satisfied: botocore==1.34.5 in ./env/lib/python3.11/site-packages (from awscli->fishtest-server==0.1) (1.34.5)
+Requirement already satisfied: docutils<0.17,>=0.10 in ./env/lib/python3.11/site-packages (from awscli->fishtest-server==0.1) (0.16)
+Requirement already satisfied: s3transfer<0.10.0,>=0.9.0 in ./env/lib/python3.11/site-packages (from awscli->fishtest-server==0.1) (0.9.0)
+Requirement already satisfied: PyYAML<6.1,>=3.10 in ./env/lib/python3.11/site-packages (from awscli->fishtest-server==0.1) (6.0.1)
+Requirement already satisfied: colorama<0.4.5,>=0.2.5 in ./env/lib/python3.11/site-packages (from awscli->fishtest-server==0.1) (0.4.4)
+Requirement already satisfied: rsa<4.8,>=3.1.2 in ./env/lib/python3.11/site-packages (from awscli->fishtest-server==0.1) (4.7.2)
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in ./env/lib/python3.11/site-packages (from botocore==1.34.5->awscli->fishtest-server==0.1) (1.0.1)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in ./env/lib/python3.11/site-packages (from botocore==1.34.5->awscli->fishtest-server==0.1) (2.8.2)
+Requirement already satisfied: urllib3<2.1,>=1.25.4 in ./env/lib/python3.11/site-packages (from botocore==1.34.5->awscli->fishtest-server==0.1) (2.0.7)
+Requirement already satisfied: idna>=2.0.0 in ./env/lib/python3.11/site-packages (from email_validator->fishtest-server==0.1) (3.6)
+Requirement already satisfied: hupper>=1.5 in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (1.12)
+Requirement already satisfied: plaster in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (1.1.2)
+Requirement already satisfied: plaster-pastedeploy in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (1.0.1)
+Requirement already satisfied: setuptools in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (69.0.2)
+Requirement already satisfied: translationstring>=0.4 in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (1.4)
+Requirement already satisfied: venusian>=1.0 in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (3.1.0)
+Requirement already satisfied: webob>=1.8.3 in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (1.8.7)
+Requirement already satisfied: zope.deprecation>=3.5.0 in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (5.0)
+Requirement already satisfied: zope.interface>=3.8.0 in ./env/lib/python3.11/site-packages (from pyramid->fishtest-server==0.1) (6.1)
+Requirement already satisfied: Pygments in ./env/lib/python3.11/site-packages (from pyramid_debugtoolbar->fishtest-server==0.1) (2.17.2)
+Requirement already satisfied: Mako>=1.1.0 in ./env/lib/python3.11/site-packages (from pyramid_mako->fishtest-server==0.1) (1.3.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./env/lib/python3.11/site-packages (from requests->fishtest-server==0.1) (3.3.2)
+Requirement already satisfied: certifi>=2017.4.17 in ./env/lib/python3.11/site-packages (from requests->fishtest-server==0.1) (2023.11.17)
+Requirement already satisfied: MarkupSafe>=0.9.2 in ./env/lib/python3.11/site-packages (from Mako>=1.1.0->pyramid_mako->fishtest-server==0.1) (2.1.3)
+Requirement already satisfied: pyasn1>=0.1.3 in ./env/lib/python3.11/site-packages (from rsa<4.8,>=3.1.2->awscli->fishtest-server==0.1) (0.5.1)
+Requirement already satisfied: PasteDeploy>=2.0 in ./env/lib/python3.11/site-packages (from plaster-pastedeploy->pyramid->fishtest-server==0.1) (3.1.0)
+Requirement already satisfied: six>=1.5 in ./env/lib/python3.11/site-packages (from python-dateutil<3.0.0,>=2.1->botocore==1.34.5->awscli->fishtest-server==0.1) (1.16.0)
+Installing collected packages: fishtest-server
+  Attempting uninstall: fishtest-server
+    Found existing installation: fishtest-server 0.1
+    Uninstalling fishtest-server-0.1:
+      Successfully uninstalled fishtest-server-0.1
+  Running setup.py develop for fishtest-server
+Successfully installed fishtest-server-0.1
+Created symlink /etc/systemd/system/multi-user.target.wants/mongod.service → /lib/systemd/system/mongod.service.
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+Re-creating indexes...
+
+Dropping indexes on actions
+Current indexes: ['_id_']
+
+Dropping indexes on pgns
+Current indexes: []
+Creating indexes on pgns collection
+
+Dropping indexes on runs
+Current indexes: []
+Creating indexes on runs collection
+
+Dropping indexes on users
+Current indexes: []
+Finished creating indexes!
+
+Current indexes on pgns:
+{'_id_': {'key': [('_id', 1)], 'v': 2}, 'run_id_-1': {'key': [('run_id', -1)], 'v': 2}}
+
+Current indexes on users:
+{'_id_': {'key': [('_id', 1)], 'v': 2}, 'username_1': {'key': [('username', 1)], 'unique': True, 'v': 2}}
+
+Current indexes on runs:
+{ '_id_': {'key': [('_id', 1)], 'v': 2},
+  'finished_green_runs': { 'key': [('finished', 1), ('is_green', -1), ('last_updated', -1)],
+                           'partialFilterExpression': SON([('finished', True), ('is_green', True)]),
+                           'v': 2},
+  'finished_ltc_runs': { 'key': [('finished', 1), ('last_updated', -1), ('tc_base', -1)],
+                         'partialFilterExpression': SON([('finished', True), ('tc_base', SON([('$gte', 40)]))]),
+                         'v': 2},
+  'finished_runs': { 'key': [('finished', 1), ('last_updated', -1)],
+                     'partialFilterExpression': SON([('finished', True)]),
+                     'v': 2},
+  'finished_user_runs': { 'key': [('args.username', -1), ('finished', 1), ('last_updated', -1)],
+                          'partialFilterExpression': SON([('finished', True)]),
+                          'v': 2},
+  'finished_yellow_runs': { 'key': [('finished', 1), ('is_yellow', -1), ('last_updated', -1)],
+                            'partialFilterExpression': SON([('finished', True), ('is_yellow', True)]),
+                            'v': 2},
+  'unfinished_runs': { 'key': [('finished', 1)],
+                       'partialFilterExpression': SON([('finished', False)]),
+                       'v': 2},
+  'user_runs': {'key': [('args.username', -1), ('last_updated', -1)], 'v': 2}}
+
+Current indexes on actions:
+{ '_id_': {'key': [('_id', 1)], 'v': 2},
+  'action_1__id_-1': {'key': [('action', 1), ('_id', -1)], 'v': 2},
+  'action_text_username_text_worker_text_message_text_run_text_user_text_nn_text__id_-1': { 'default_language': 'none',
+                                                                                            'key': [ ( '_fts',
+                                                                                                       'text'),
+                                                                                                     ( '_ftsx',
+                                                                                                       1),
+                                                                                                     ( '_id',
+                                                                                                       -1)],
+                                                                                            'language_override': 'language',
+                                                                                            'textIndexVersion': 3,
+                                                                                            'v': 2,
+                                                                                            'weights': SON([('action', 1), ('message', 1), ('nn', 1), ('run', 1), ('user', 1), ('username', 1), ('worker', 1)])},
+  'run_id_1__id_-1': {'key': [('run_id', 1), ('_id', -1)], 'v': 2},
+  'username_1__id_-1': {'key': [('username', 1), ('_id', -1)], 'v': 2}}
+
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+Unable to obtain the port number. Error: -1
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+-bash: line 1: crontab: command not found
+-bash: line 19: crontab: command not found
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+Requirement already satisfied: pip in ./net-server/env/lib/python3.11/site-packages (23.3.2)
+Requirement already satisfied: setuptools in ./net-server/env/lib/python3.11/site-packages (69.0.2)
+Requirement already satisfied: wheel in ./net-server/env/lib/python3.11/site-packages (0.42.0)
+Requirement already satisfied: fastapi in ./net-server/env/lib/python3.11/site-packages (0.105.0)
+Requirement already satisfied: gunicorn in ./net-server/env/lib/python3.11/site-packages (21.2.0)
+Requirement already satisfied: python-multipart in ./net-server/env/lib/python3.11/site-packages (0.0.6)
+Requirement already satisfied: uvicorn[standard] in ./net-server/env/lib/python3.11/site-packages (0.25.0)
+Requirement already satisfied: anyio<4.0.0,>=3.7.1 in ./net-server/env/lib/python3.11/site-packages (from fastapi) (3.7.1)
+Requirement already satisfied: pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 in ./net-server/env/lib/python3.11/site-packages (from fastapi) (2.5.2)
+Requirement already satisfied: starlette<0.28.0,>=0.27.0 in ./net-server/env/lib/python3.11/site-packages (from fastapi) (0.27.0)
+Requirement already satisfied: typing-extensions>=4.8.0 in ./net-server/env/lib/python3.11/site-packages (from fastapi) (4.9.0)
+Requirement already satisfied: click>=7.0 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (8.1.7)
+Requirement already satisfied: h11>=0.8 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (0.14.0)
+Requirement already satisfied: httptools>=0.5.0 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (0.6.1)
+Requirement already satisfied: python-dotenv>=0.13 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (1.0.0)
+Requirement already satisfied: pyyaml>=5.1 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (6.0.1)
+Requirement already satisfied: uvloop!=0.15.0,!=0.15.1,>=0.14.0 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (0.19.0)
+Requirement already satisfied: watchfiles>=0.13 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (0.21.0)
+Requirement already satisfied: websockets>=10.4 in ./net-server/env/lib/python3.11/site-packages (from uvicorn[standard]) (12.0)
+Requirement already satisfied: packaging in ./net-server/env/lib/python3.11/site-packages (from gunicorn) (23.2)
+Requirement already satisfied: idna>=2.8 in ./net-server/env/lib/python3.11/site-packages (from anyio<4.0.0,>=3.7.1->fastapi) (3.6)
+Requirement already satisfied: sniffio>=1.1 in ./net-server/env/lib/python3.11/site-packages (from anyio<4.0.0,>=3.7.1->fastapi) (1.3.0)
+Requirement already satisfied: annotated-types>=0.4.0 in ./net-server/env/lib/python3.11/site-packages (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi) (0.6.0)
+Requirement already satisfied: pydantic-core==2.14.5 in ./net-server/env/lib/python3.11/site-packages (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi) (2.14.5)
+Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+connect a browser to:
+http://172.17.0.1 100.115.92.204 2603:7080:e13d:b300:216:3eff:fe16:f180
